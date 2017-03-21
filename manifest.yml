@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: vk-iot-bm
+  host: vk-iot-bm
+  disk_quota: 1024M
+  services:
+  - vk-iot-bm-cloudantNoSQLDB
+  - vk-iot-bm-iotf-service
